@@ -20,6 +20,12 @@ Develop an App/API for calculating and tracking the nutrient and calories provid
 - Tensorflow Lite: Compress the model so it can be deployed on mobile deveices such as cell phone.
 - Python: The most wildly used language for machine learning.
 
+**Functionalies** <br />
+- Allow the user to take picture of food that they are having or use picture of foods they've had before.
+- After Tensorflow mobile API returned the result, the app will ask the user to type in how many servings of that food that they are having.
+- Then the application will return the nutrient information and store the data to the current date. So that the user can keep tracking their calorie intakes.
+
+
 **Development Environment** <br />
 Tensorflow; Python; keras; numpy; 
 
