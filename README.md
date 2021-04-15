@@ -1,43 +1,32 @@
+# InstaNutri
+**Macronutrient Estimator; Buyuan Lin; buruce.edu**
 
-<img src="screenshots/logo.png">
+**Product Mission** <br />
+Develop an App/API for calculating and tracking the nutrient and calories provided in each meal or dish of the user. Then, provide advice is needed.
 
-# NutriSnap
+**Goals** <br />
+- Easy to use, ex. simply by taking one picture.
+- Relative accurate: Use trained object detection model to ensure the accuracy.
+- Health advices: Analyze the user’s diet. Makes suggestion if the user’s diet is lack of some the nutrient or the user’s diet is unhealthy.
 
-NutriSnap is an Android app that lets users snap a food photo and get the nutritional information of the meal. The app also allows  users to save their foods to diary and provides a visualized analysis of their eating habits.
+**MVP & User Stories** <br />
+- As a developer, I wish to spend minimum time training the model.
+- As a user, I want to record and analyze my nutrient and calories intake of each dish.
+- As a user, I wish there’s an application that can give me advice about my diet behavior and warn me if I’m eating unhealthily.
+- As a user, I wish the described functionality can be done easily such as taking a photo of the I’m eating instead of manually enter all the ingredients.
 
-The image recognition was implemented by convolutional neural network. The model was developed with TensorFlow and trained with over 100,000 images.
+**Technologies to evaluate** <br />
+- Tensorflow, keras: Probably the most popular opensource machine learning right now. With exhaustive documentation and lots of existing projects.
+- Tensorflow Lite: Compress the model so it can be deployed on mobile deveices such as cell phone.
+- Python: The most wildly used language for machine learning.
 
-## Getting Started
+**Functionalies** <br />
+- Allow the user to take picture of food that they are having or use picture of foods they've had before.
+- After Tensorflow mobile API returned the result, the app will ask the user to type in how many servings of that food that they are having.
+- Then the application will return the nutrient information and store the data to the current date. So that the user can keep tracking their calorie intakes.
 
-### Prerequisites
-- Java Development Kit: https://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html
-- Android Studio: https://developer.android.com/studio/index.html
 
-### Usage
+**Development Environment** <br />
+Tensorflow; Python; keras; numpy; 
 
-1. Clone the project
-
-```
-git clone https://github.com/okascout/NutriSnap.git
-```
-
-2. Import the project to Android Studio
-
-```
-cd NutriSnap
-studio .
-```
-3. From there you can either run it with an emulator or your own android device
-
-## Screenshots
-
-### Main screen
-
-<img src="screenshots/main.png" width="200">
-
-### Food recognition
-
-<img src="screenshots/results.png" width="200"> <img src="screenshots/results_2.png" width="200"> <img src="screenshots/add_food.png" width="200">
-
-### Diary
-<img src="screenshots/diary.png" width="200"> <img src="screenshots/diary_2.png" width="200">
+ 
