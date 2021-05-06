@@ -30,3 +30,6 @@ Develop an App/API for calculating and tracking the nutrient and calories provid
 Tensorflow; Python; keras; numpy; 
 
  
+**Video link:** <br />
+oneDrive link, please let me know if the link doesn't work. Uploading the video to google drive takes too much time: 
+https://1drv.ms/v/s!AoOolAg_SGVagfYgkUFhrWiezJOXsA
